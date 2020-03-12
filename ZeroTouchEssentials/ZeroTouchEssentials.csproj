@@ -33,12 +33,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DynamoServices">
-      <HintPath>$(DynamoServicesPath)\DynamoServices.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="DynamoServices, Version=1.0.0.1091, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamoVisualProgramming.DynamoServices.1.0.0-beta3\lib\net45\DynamoServices.dll</HintPath>
     </Reference>
-    <Reference Include="ProtoGeometry">
-      <HintPath>$(DynamoZeroTouchPath)\ProtoGeometry.dll</HintPath>
+    <Reference Include="DynamoUnits, Version=1.0.0.1091, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamoVisualProgramming.ZeroTouchLibrary.1.0.0-beta3\lib\net45\DynamoUnits.dll</HintPath>
+    </Reference>
+    <Reference Include="ProtoGeometry, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DynamoVisualProgramming.ZeroTouchLibrary.1.0.0-beta3\lib\net45\ProtoGeometry.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitAPI">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2018\RevitAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitNodes">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2020\AddIns\DynamoForRevit\Revit\RevitNodes.dll</HintPath>
+    </Reference>
+    <Reference Include="RevitServices">
+      <HintPath>..\..\..\..\..\..\Program Files\Autodesk\Revit 2020\AddIns\DynamoForRevit\Revit\RevitServices.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
